@@ -1,0 +1,60 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="todolist.css">
+
+    <title>My To-Do List</title>
+</head>
+<body>
+    <div class="block-container">
+        <h1 class="h1"> To-Do List</h1>
+        <div class="input-icons">
+            <i id="add" class="material-icons">&#xe148;</i>
+            <input type="text" id="addtask" placeholder="Add your Task and press enter" />
+        </div>
+        <span id="totaltask">Number of tasks: <span id="taskcount">0</span></span>
+
+
+        <div class="controls">
+            <div class="filters">
+                <span id="all">All</span>
+                <span class="active" id="pending">Pending</span>
+                <span class="done" id="completed">Completed</span>
+            </div>
+            <button id="clearlist" class="clear-btn">Clear All</button>
+        </div>
+
+        <ul id="taskList"></ul>
+        <!--<ul id="localtaskList"></ul>-->
+    </div>
+            <script src="Todoscript.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
